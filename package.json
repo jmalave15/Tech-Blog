@@ -1,16 +1,17 @@
 {
-    "name" : "Tech-Blog",
+    "name" : "tech-blog",
     "version" : "1.0.0",
     "description" : "Tech-Blog for the brave.",
     "main" : "index.js",
     "scripts" : {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository" : {
         "type" : "git",
         "url" : "git+https://github.com/jmalave15/Tech-Blog.git"
     },
-    "author" : "Jose Malave",
+    "author" : "",
     "license" : "ISC",
     "bugs" : {
         "url" : "https://github.com/jmalave15/Tech-Blog/issues"
@@ -24,6 +25,7 @@
         "express-handlebars" : "^7.0.4",
         "express-session" : "^1.17.3",
         "mysql2" : "^3.2.0",
+        "path" : "^0.12.7",
         "sequelize" : "^6.31.0"
     }
 
